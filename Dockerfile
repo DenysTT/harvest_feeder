@@ -10,6 +10,5 @@ ENV TEMPLATE_FILE_NAME 'template.json'
 COPY omnomnom.py .
 COPY $TEMPLATE_FILE_NAME .
 
-# default command: display Ansible version
 CMD ["python3", "omnomnom.py" ]
 
