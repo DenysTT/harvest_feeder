@@ -7,7 +7,9 @@ Install
 
     # clone the repository
     $ git clone https://github.com/DenysTT/harvest_feeder.git
-
+    
+    # update template.json with your own data
+    
     # build docker image
     $ make build release=test
 
