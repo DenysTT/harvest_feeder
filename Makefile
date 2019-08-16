@@ -7,4 +7,4 @@ build:
 	docker build -t $(image) .
 
 run:
-	docker run -rm -e HARVEST_ACCESS_TOKEN=$(HARVEST_TOKEN) HARVEST_ACCOUNT_ID=$(ACCOUNT_ID) --name feeder $(image)
+	docker run --rm -e HARVEST_ACCESS_TOKEN=$(HARVEST_TOKEN) -e HARVEST_ACCOUNT_ID=$(ACCOUNT_ID) --name feeder $(image)
