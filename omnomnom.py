@@ -142,7 +142,7 @@ def main():
             for task, time in tasks.items():
                 task_id = get_task_id(project, task)
                 hours = float(time)
-                work_date = date._date_repr
+                work_date = date.date()
                 add_time_entry(user_id, project_id, task_id, hours, work_date)
     submit_weekly_report(user_id, work_dates)
 

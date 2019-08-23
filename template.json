@@ -1,26 +1,29 @@
 {
     "Monday": {
+        "TECH-002 Platform AWS": {
+            "Programming": 4
+        },
         "TECH-011 Devops - BAU Requests": {
-            "Programming": 8
+            "Programming": 4
         }
     },
     "Tuesday": {
-        "TECH-011 Devops - BAU Requests": {
+        "TECH-002 Platform AWS": {
             "Programming": 8
         }
     },
     "Wednesday": {
-        "TECH-011 Devops - BAU Requests": {
+        "TECH-002 Platform AWS": {
             "Programming": 8
         }
     },
     "Thursday": {
-        "TECH-011 Devops - BAU Requests": {
+        "TECH-002 Platform AWS": {
             "Programming": 8
         }
     },
     "Friday": {
-        "TECH-011 Devops - BAU Requests": {
+        "TECH-002 Platform AWS": {
             "Programming": 8
         }
     }
