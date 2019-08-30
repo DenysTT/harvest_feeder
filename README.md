@@ -3,8 +3,6 @@
 Install
 -------
 
-::
-
     # clone the repository
     $ git clone https://github.com/DenysTT/harvest_feeder.git
     
@@ -16,8 +14,6 @@ Install
 
 Run
 ---
-
-::
 
     # to generate access token and account id
     # log in to harvest web app with your credentials by the link https://id.getharvest.com/developers
