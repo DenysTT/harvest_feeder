@@ -17,7 +17,7 @@ base_url = "https://api.harvestapp.com/"
 url_get_me = base_url + "/v2/users/me"
 url_my_projects = base_url + "v2/users/%s/project_assignments"
 url_my_entries = base_url + "v2/time_entries"
-url_submit = "https://robmarlow.harvestapp.com/daily/review"
+url_submit = os.environ.get("HARVEST_URL")
 headers = {
     "User-Agent": "Python Harvest API",
     "Authorization": "Bearer " + os.environ.get("HARVEST_ACCESS_TOKEN"),
