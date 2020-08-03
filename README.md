@@ -17,6 +17,6 @@ Run
 
     # to generate access token and account id
     # log in to harvest web app with your credentials by the link https://id.getharvest.com/developers
-    $ make run HARVEST_ACCESS_TOKEN=foo HARVEST_ACCOUNT_ID=bar release=test
+    $ make run HARVEST_ACCESS_TOKEN=foo HARVEST_ACCOUNT_ID=bar HARVEST_URL=url release=test
 
 ~~Taste good with a CRON job =D~~ :grin:
